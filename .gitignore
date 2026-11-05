@@ -1,0 +1,10 @@
+.venv/
+.idea/
+.env
+
+#git init
+#git add .
+#git commit -m "python basics"
+#git remote add origin https://github.com/Shancrypto/pythonbasics.git
+#git push -u origin master
+
