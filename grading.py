@@ -11,3 +11,5 @@ elif score >= 60 and score <= 70:
     print("Grade D")
 else:
     print("E")
+#     other that work same as github
+# gitbucket, gitlab
