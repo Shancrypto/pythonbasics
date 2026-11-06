@@ -2,11 +2,13 @@
 .idea/
 .env
 *.txt
+!requirements.txt
 
 #git init
 #git add .
 #git commit -m "python basics"
 #git remote add origin https://github.com/Shancrypto/pythonbasics.git
 #git push -u origin master
+#pip freeze > requirements.txt
 
 
