@@ -27,3 +27,19 @@ avg = total /len(students)
 print(avg)
 # lambda
 # TODO SORT THE LIST /FILTER
+# sort the list / filter
+def get_key(student):
+    return student["age"]
+
+age_sorted = sorted(students, key=get_key)
+
+print(age_sorted)
+
+for student in age_sorted:
+    print(student)
+
+#Get the oldest person from nigeria
+# git add .
+# git commit -m "Updated project"
+# git push
+

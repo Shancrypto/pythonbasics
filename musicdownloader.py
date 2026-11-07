@@ -10,6 +10,7 @@ video_url = "https://youtu.be/lGMsfh8AqmM?si=6j4ppJs1xhIC9AXW"
 ydl_opts = {
 
 "format": "bestaudio/best",
+    'ffmpeg_location': r'C:\ffmpeg\bin',
 
 "postprocessors": [
 
@@ -33,3 +34,5 @@ with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download([video_url])
 
 print("Download complete!")
+# winget install --id Gyan.FFmpeg -e install it on my cmd
+#     'ffmpeg_location': r'C:\ffmpeg\bin',
